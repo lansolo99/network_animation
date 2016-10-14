@@ -98,7 +98,7 @@
 		// Update canvas
 		this.animationFrame = requestAnimationFrame(this.update.bind(this));
 
-		this.bindUiActions();
+		// this.bindUiActions();
 	};
 
 	ParticleNetwork.prototype.createParticles = function(isInitial) {
